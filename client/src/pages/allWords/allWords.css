@@ -1,0 +1,17 @@
+.container-words{
+ display: flex;
+  /* text-align: center; */
+ justify-content: center;
+ text-align: center;
+}
+.english{
+width: 100px;
+margin-right: 10px;
+  
+    border-bottom: 1px solid #badfdb;
+}
+.ukraine{
+    margin-left: 10px;
+    width: 100px;
+    border-bottom: 1px solid #d63630;
+}

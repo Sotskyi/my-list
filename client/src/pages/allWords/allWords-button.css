@@ -1,0 +1,70 @@
+
+.left-text {
+  position: absolute;
+  left: 19%;
+  top: 17%;
+}
+
+div.a-btn-3 {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Oswald", Arial, sans-serif;
+}
+div.a-btn-3 {
+  background: #80a9da;
+ 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80a9da', endColorstr='#6f97c5',GradientType=0 );
+  padding-left: 12px;
+  padding-right: 59px;
+  height: 44px;
+  display: block;
+  /* margin: 21px auto; */
+  /* text-align: center; */
+  width: 61px;
+  position: relative;
+  border: 1px solid #5d81ab;
+  -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+    1px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+  -moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+    1px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+    1px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+
+.a-btn-3:hover {
+
+  -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+    1px 1px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+    1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+    1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.a-btn-3:hover .a-btn-3-text {
+  text-shadow: 0px 1px 1px #5d81ab;
+  color: #fff;
+}
+.a-btn-3:hover .a-btn-3-slide-text {
+  width: 57px;
+}
+.a-btn-3:hover .a-btn-3-icon-right span {
+  opacity: 1;
+}
+.a-btn-3:active {
+  position: relative;
+  top: 1px;
+  background: #5d81ab;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  border-color: #80a9da;
+}

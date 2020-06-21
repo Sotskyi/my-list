@@ -1,0 +1,142 @@
+.input-list{
+  height: 20px;
+  margin-top: 7px;
+  width: 50px;
+  text-decoration: none;
+  font-size: 10px;
+}
+  .left-text {
+    position: absolute;
+    left: 19%;
+    top: 17%;
+  }
+
+  div.a-btn-3 {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Oswald", Arial, sans-serif;
+  }
+  div.a-btn-3 {
+   background-color: #80a9da;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80a9da', endColorstr='#6f97c5',GradientType=0 );
+    padding-left: 12px;
+    padding-right: 59px;
+    height: 40px;
+    display: block;
+    /* margin: 21px auto; */
+    /* text-align: center; */
+    width: 61px;
+    position: relative;
+    border: 1px solid #5d81ab;
+    -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+      1px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+    -moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+      1px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+      1px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px rgba(188, 188, 188, 0.5);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .a-btn-3-text {
+    padding-top: 5px;
+    display: block;
+    width: 0px;
+    font-size: 18px;
+    white-space: nowrap;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+    color: #446388;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .a-btn-3-slide-text {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+  
+    right: 52px;
+    width: 0px;
+    background: #63707e;
+    text-shadow: 0px -1px 1px #363f49;
+    color: #fff;
+    font-size: 18px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-align: left;
+    text-indent: 10px;
+    overflow: hidden;
+    line-height: 38px;
+    -webkit-box-shadow: -1px 0px 1px rgba(255, 255, 255, 0.4),
+      1px 1px 2px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: -1px 0px 1px rgba(255, 255, 255, 0.4),
+      1px 1px 2px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: -1px 0px 1px rgba(255, 255, 255, 0.4),
+      1px 1px 2px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: width 0.3s linear;
+    -moz-transition: width 0.3s linear;
+    -o-transition: width 0.3s linear;
+    transition: width 0.3s linear;
+  }
+  .a-btn-3-icon-right {
+    padding-top: 8px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 52px;
+    border-left: 1px solid #5d81ab;
+    -webkit-box-shadow: 1px 0px 1px rgba(255, 255, 255, 0.4) inset;
+    -moz-box-shadow: 1px 0px 1px rgba(255, 255, 255, 0.4) inset;
+    box-shadow: 1px 0px 1px rgba(255, 255, 255, 0.4) inset;
+    /* padding-right: 16px; */
+  }
+  .a-btn-3-icon-right span {
+    width: 72px;
+    height: 47px;
+    opacity: -30.3;
+    position: absolute;
+    left: 50%;
+    top: 44%;
+    margin: 0px 0px 0px -12px;
+    /* background: transparent url(images/arrow_right.png) no-repeat 50% 55%; */
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .a-btn-3:hover {
+    padding-right: 140px;
+    -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+      1px 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+      1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8) inset,
+      1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .a-btn-3:hover .a-btn-3-text {
+    text-shadow: 0px 1px 1px #5d81ab;
+    color: #fff;
+  }
+  .a-btn-3:hover .a-btn-3-slide-text {
+    width: 57px;
+  }
+  .a-btn-3:hover .a-btn-3-icon-right span {
+    opacity: 1;
+  }
+  .a-btn-3:active {
+    position: relative;
+    top: 1px;
+    background: #5d81ab;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    border-color: #80a9da;
+  }
+  
