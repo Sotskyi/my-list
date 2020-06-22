@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as  Router ,Switch, Route} from "react-router-dom";
+import { BrowserRouter as  Switch, Route} from "react-router-dom";
 import { AllWords } from "./pages/allWords/allWords.js";
 import { Main } from "./pages/main/Main";
 import { OwnList } from "./pages/ownList/OwnList";

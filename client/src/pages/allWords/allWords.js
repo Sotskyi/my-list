@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {useLocation} from "react-router";
+
 import "./allWords.css";
 export const AllWords = () => {
   const [data, setData] = useState({});
@@ -16,9 +16,7 @@ export const AllWords = () => {
     fetchData();
   }, []);
 
-  let keys = Object.keys(data);
-  console.log(Object.keys(data));
-  console.log(data);
+
   return (
     <div>
       {" "}

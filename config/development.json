@@ -1,0 +1,4 @@
+{
+ "port":5000,
+ "db":"mongodb+srv://andrew71241:71241@cluster0-qvxpn.mongodb.net/Translator?retryWrites=true&w=majority"
+}
