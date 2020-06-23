@@ -43,4 +43,4 @@ app.use(express.static("client"));
 app.use( express.json());
 
 
-app.listen(PORT,()=>console.log("app start in 5000"))
+app.listen(PORT,()=>console.log(`app start in ${PORT}`))

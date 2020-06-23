@@ -1,12 +1,14 @@
 
 .main-container{
+  
   height: 100%;
   width: 100%;
-  background: #00b4cc;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(54,54,149,1) 0%, rgba(54,59,145,1) 6%, rgba(17,161,221,1) 50%, rgba(49,69,215,1) 100%, rgba(38,233,7,1) 100%);
   overflow: auto;
 }
 .search {
-  
+
   width: 100%;
   height: 150px;
   display: flex;
@@ -18,6 +20,8 @@
  
 }
 .search-box {
+  color: #00b4cc;
+  font-family: 'Sriracha', cursive;
   margin-top: 30px;
   border: 4px solid transparent;
   border-radius: 2px;

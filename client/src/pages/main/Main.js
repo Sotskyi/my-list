@@ -46,7 +46,7 @@ export const Main = () => {
       
       
       let data = await fetch(
-        `http://localhost:5000/api/listname?listname=${input}`
+        `/api/listname?listname=${input}`
       );
       let dataJson = await data.json();
       SetProps(dataJson);
@@ -120,7 +120,7 @@ export const Main = () => {
 };
 
 function searchCharacters(search) {
-  return fetch(`http://localhost:5000/api?word=${search}`, {
+  return fetch(`/api?word=${search}`, {
     method: "GET",
   }).then((r) => r.json());
 }

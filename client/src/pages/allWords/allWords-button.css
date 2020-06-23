@@ -1,22 +1,25 @@
 
 .left-text {
   position: absolute;
-  left: 19%;
+  left: 29%;
   top: 17%;
 }
 
 div.a-btn-3 {
   color: #ffffff;
   text-decoration: none;
-  font-family: "Oswald", Arial, sans-serif;
+ 
+  font-family: 'Sriracha', cursive;
+ 
 }
 div.a-btn-3 {
-  background: #80a9da;
+  background: rgb(95,63,171);
+  background: linear-gradient(90deg, rgba(95,63,171,0.9279061966583508) 0%, rgba(17,123,221,1) 1%, rgba(17,144,221,1) 15%, rgba(17,120,221,1) 29%, rgba(18,19,19,1) 55%, rgba(17,161,221,1) 81%, rgba(49,69,215,1) 100%, rgba(38,233,7,1) 100%);
  
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80a9da', endColorstr='#6f97c5',GradientType=0 );
   padding-left: 12px;
-  padding-right: 59px;
-  height: 44px;
+  padding-right:42px;
+  height: 30px;
   display: block;
   /* margin: 21px auto; */
   /* text-align: center; */

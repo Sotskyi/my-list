@@ -18,7 +18,7 @@ export const AllWords = () => {
 
 
   return (
-    <div>
+    <div className="container-row">
       {" "}
       {Object.keys(data).map((elem) => (
         <div key={elem} className="container-words">

@@ -1,8 +1,16 @@
+
+.container-row{
+    height: 100%;
+   
+}
+
 .container-words{
+   
  display: flex;
   /* text-align: center; */
  justify-content: center;
  text-align: center;
+
 }
 .english{
 width: 100px;
