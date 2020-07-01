@@ -7,7 +7,7 @@ export const AllWords = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const result = await fetch("http://localhost:5000/api/list");
+      const result = await fetch("/api/list");
       const resultJson = await result.json();
 
       setData(resultJson.value);

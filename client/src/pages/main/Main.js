@@ -93,16 +93,16 @@ export const Main = () => {
       </div>
 
       {isSearching && <div className="searching">Searching ...</div>}
-
+    
       <div
         className="container"
-        onClick={(e) => setInputValue(e.target.getAttribute("value"))}
+        onClick={(e) => { setInputValue(e.target.getAttribute("value")) ;localStorage.setItem("sendWord", e.target.getAttribute("value")) }     }
       >
-        {results.map((result, i) => (
+       <Link to="/translate">{results.map((result, i) => (
           <div className="result-element" key={result + i} value={result}>
             {result}
           </div>
-        ))}
+        ))}</Link>
         <div className="container-button">
           <div className="all-words">
             {" "}

@@ -27,7 +27,7 @@ export const Translate = (props) => {
    const saveWord =  async(e)=>{e.preventDefault()
     console.log(input)
   if (!input){return}
-   let result = await fetch(`http://localhost:5000/api`, {
+   let result = await fetch(`/api`, {
     method: "POST", // or 'PUT'
     headers: {
       "Content-Type": "application/json"
