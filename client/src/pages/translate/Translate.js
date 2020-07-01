@@ -11,7 +11,7 @@ export const Translate = (props) => {
   let item = localStorage.getItem("sendWord");
   useEffect(() => {
     const sendWordToServer = async () => {
-      const result = await fetch(`http://localhost:5000/api/translate`, {
+      const result = await fetch(`/api/translate`, {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
